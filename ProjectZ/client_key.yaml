@@ -1,0 +1,14 @@
+kind: Namespace
+apiVersion: v1
+metadata:
+  name: zerto
+---
+apiVersion: v1
+kind: Secret
+metadata:
+  name: zvm-secret
+  namespace: zerto
+type: Opaque
+stringData:
+  client_id: 51eebc34-ca97-4477-9f6f-8950c4f97dac
+  secret_key: LqDmA[mr)BzoPvVHbVMh[dE5ZDSJKS9btULFFGpv2fAvT6oyF-spkbUsFRES
